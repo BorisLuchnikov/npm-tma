@@ -1,3 +1,7 @@
+import WebApp from '@twa-dev/sdk'
+
+WebApp.ready();
+
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
