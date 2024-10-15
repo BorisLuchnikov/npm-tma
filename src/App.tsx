@@ -30,6 +30,11 @@ function App() {
                     Show Alert
                 </button>
             </div>
+            <div className="card">
+                <button onClick={() => WebApp.showAlert(` ${WebApp.initDataUnsafe.user}! `)}>
+                    Show Alert
+                </button>
+            </div>
         </>
     )
 }
